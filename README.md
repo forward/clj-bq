@@ -9,7 +9,7 @@
                          :user-agent "clj-bq test client" })
      
     ;; OAuth dance
-    (start-authentication credentials)
+    (start-authentication *credentials*)
      
     ;; Follow the URL printed in stdout and authorize the client
     (def cred "browser introduced credential")
